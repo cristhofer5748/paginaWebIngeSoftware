@@ -1,0 +1,28 @@
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.button {
+    background-color: #d87009;
+    color: white;
+    font-size: 20px;
+    min-width: 82px;
+    border-radius: 10px;
+}
+
+.button p {
+    background-color: #d87009;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 10px;
+}
+
+.img-product {
+    width: 300px;
+    height: 200px;
+}

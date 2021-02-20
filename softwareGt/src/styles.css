@@ -34,12 +34,6 @@ p {
     line-height: 25px;
 }
 
-h2 {
-    font-size: 15px;
-    line-height: 25px;
-    color: #4ae;
-}
-
 section {
     padding: 25px 0 35px;
     background: #fff;
@@ -49,14 +43,6 @@ body {
     position: relative;
     /* we need this for the scrollspy */
     font-size: 14px;
-}
-
-a {
-    color: #3CC;
-}
-
-a:hover {
-    color: #FF0;
 }
 
 
@@ -74,13 +60,6 @@ NAV
     padding: 30px 0;
     -webkit-transition: all .3s;
     transition: all .3s;
-}
-
-.img-redonda {
-    width:300px;
-    height:300px;
-    border-radius:150px;
-    border:10px solid #666;
 }
 
 .fixed-side-navbar:hover {
@@ -102,7 +81,6 @@ NAV
     background-color: transparent;
     color: black;
 }
-
 
 .fixed-side-navbar .nav>li a.active:after {
     -webkit-transform: scale(0.9);
@@ -343,12 +321,8 @@ h4,
 }
 
 .tabs-content {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 8vh;
     background-image: url(/assets/img/4th-section.jpg);
     background-attachment: fixed;
-    min-height: 100vh;
     background-size: cover;
     background-position: center center;
 }
@@ -564,12 +538,6 @@ footer em {
     }
 }
 
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1170px;
-    }
-}
-
 
 /* LIGHT BOX */
 
@@ -619,7 +587,7 @@ body.lb-disable-scrolling {
 }
 
 .lb-outerContainer {
-    position: relative;
+    position: absolute;
     *zoom: 1;
     width: 250px;
     height: 250px;

@@ -3,22 +3,23 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="left-text">
-                    <p> <img src="assets/img/logo.png" alt="">  </p>
+                    <p> <img src="assets/img/logo.png" alt=""> </p>
                     <h4>SERVICIOS</h4>
                     <div class="line-dec"></div>
-                    <p>En <a rel="nofollow" href="https://templatemo.com">  SOFTWARE</a> nuestras soluciones estan basadas en la amplia experiencia de nuestros técnicos y desarrolladores, asi mismo en los exhaustivos análisis de cada solución a implementar. Desarrolladores de software, es nuestra razón de ser.</p>
+                    <p>En <a rel="nofollow" [routerLink]="['/contactanos']">  SOFTWARE</a> nuestras soluciones estan basadas en la amplia experiencia de nuestros técnicos y desarrolladores, asi mismo en los exhaustivos análisis de cada solución a implementar.
+                        Desarrolladores de software, es nuestra razón de ser.</p>
                     <ul>
-                        <li>- Desarrollo Web</li>
-                        <li>- Gestion de Sistemas</li>
-                        <li>- Desarrollo de Software a Medida</li>
-                        <li>- Desarrollo de Aplicaciones Moviles</li>
-                        <li>- Software Gestion Empresarial</li>
-                        <li>- Marketing Online</li>
-                        <li>- Redes y Sistemas</li>
-                        <li>- Consultoria Informatica</li>                        
+                        <li>Desarrollo Web</li>
+                        <li>Gestion de Sistemas</li>
+                        <li>Desarrollo de Software a Medida</li>
+                        <li>Desarrollo de Aplicaciones Moviles</li>
+                        <li>Software Gestion Empresarial</li>
+                        <li>Marketing Online</li>
+                        <li>Redes y Sistemas</li>
+                        <li>Consultoria Informatica</li>
                     </ul>
                     <div class="primary-button">
-                        <a [routerLink] = "['/portafolio']"></a>
+                        <a [routerLink]="['/portafolio']"></a>
                     </div>
                 </div>
             </div>
@@ -26,9 +27,13 @@
                 <div class="row">
                     <div *ngFor="let data of servicio" class="col-md-6">
                         <div class="service-item">
+                            <img class="img-product" [src]="data.img" alt="">
                             <h4>{{data.nombre}}</h4>
                             <div class="line-dec"></div>
                             <p>{{data.desc}}</p>
+                            <a class="button" href="">
+                                <p> Ver mas...</p>
+                            </a>
                         </div>
                     </div>
                 </div>

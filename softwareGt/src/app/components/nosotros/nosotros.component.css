@@ -1,0 +1,41 @@
+.img-redonda {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    border: 10px solid #666;
+}
+
+.nombre {
+    color: white;
+    font-family: avenir_heavy;
+    font-size: 20px;
+    margin: 0;
+}
+
+.rol {
+    color: white;
+    margin: 0;
+    font-family: avenir_light;
+}
+
+.desc {
+    color: white;
+    margin: 0;
+    font-family: avenir_medium;
+}
+
+.row {
+    display: flex;
+}
+
+.primeros {
+    margin-top: 100px;
+    margin-left: 15px;
+    float: left;
+}
+
+.segundos {
+    margin-top: 100px;
+    margin-right: 10px;
+    float: right;
+}
