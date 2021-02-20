@@ -34,6 +34,12 @@ p {
     line-height: 25px;
 }
 
+h2 {
+    font-size: 15px;
+    line-height: 25px;
+    color: #4ae;
+}
+
 section {
     padding: 25px 0 35px;
     background: #fff;
@@ -70,6 +76,13 @@ NAV
     transition: all .3s;
 }
 
+.img-redonda {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    border:10px solid #666;
+}
+
 .fixed-side-navbar:hover {
     background: transparent;
 }
@@ -89,6 +102,7 @@ NAV
     background-color: transparent;
     color: black;
 }
+
 
 .fixed-side-navbar .nav>li a.active:after {
     -webkit-transform: scale(0.9);
