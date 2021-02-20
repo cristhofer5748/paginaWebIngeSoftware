@@ -24,7 +24,7 @@ body {
 
 .heading-page {
     text-transform: uppercase;
-    font-size: 43px;
+    font-size: 53px;
     font-weight: bolder;
     letter-spacing: 3px;
     color: white;
@@ -317,6 +317,8 @@ label {
 
 .mt20 {
     margin-top: 20px;
+    color: rgb(206, 193, 14);
+
 }
 
 .site-wrapper {
